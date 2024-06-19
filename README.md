@@ -19,15 +19,18 @@ Uma coleção de dados financeiros usados para determinar a elegibilidade de ind
 
 # Descrição das Variáveis
 
-no_of_dependents - Número de Dependentes de aplicante
-education - Nível de Educação do Aplicante
-self_employed - Status de Ocupação do Aplicante
-income_annum - Renda Anual do Aplicante
-loan_amount - Valor do Empréstimo
-loan_term - Tempo previsto no contrato
-cibil_score - Score
-residential_assets_value - Valor dos bens residenciais
-commercial_assets_value - Valor dos bens comerciais
-luxury_assets_value -
-bank_assets_value - Valor dos bens bancários
-loan_status - Status final da análise de Empréstimo
+# Qualitativas
+- education - Nível de educação do aplicante
+- self_employed - Status de ocupação do aplicante
+- loan_status - Status final da análise de empréstimo
+
+# Quantitativas
+- no_of_dependents - Número de Dependentes de aplicante
+- income_annum - Renda Anual do Aplicante
+- loan_amount - Valor do Empréstimo
+- loan_term - Tempo previsto no contrato
+- cibil_score - Score
+- residential_assets_value - Valor dos bens residenciais
+- commercial_assets_value - Valor dos bens comerciais
+- luxury_assets_value -
+- bank_assets_value - Valor dos bens bancários
