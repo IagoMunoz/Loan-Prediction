@@ -29,8 +29,17 @@ Uma coleção de dados financeiros usados para determinar a elegibilidade de ind
 - income_annum - Renda Anual do Aplicante
 - loan_amount - Valor do Empréstimo
 - loan_term - Tempo previsto no contrato
-- cibil_score - Score
+- cibil_score - Credit Score Information Bureau India Limited
 - residential_assets_value - Valor dos bens residenciais
 - commercial_assets_value - Valor dos bens comerciais
 - luxury_assets_value -
 - bank_assets_value - Valor dos bens bancários
+
+# Categorização
+- cibil_score - Normalmente dividido em 5 fases: Pobre(300-579); Justo(580-669); Bom(670-739); Muito Bom(740-799); Excelente(800-850).
+
+# Fontes
+- https://www.getzype.com/blog/credit-history/good-cibil-score/
+
+# Anotações
+- "Nada mais justo que começar pelo CIBIL."
