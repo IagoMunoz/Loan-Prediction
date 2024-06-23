@@ -24,9 +24,10 @@ loan_sample$loan_status = as.factor(loan_sample$loan_status)
 ################################################################################
 sketch_sample = loan_sample
 # First Categorization of 'cibil_score' dividing it in 5 categories
+my_labels = c("Poor","Fair","Good", "Great", "Excellent")
 sketch_sample$cibil_cat = cut(sketch_sample$cibil_score,
-                            breaks=c(300, 580, 670, 740, 799, 850),
-                            labels=c("Poor","Fair","Good", "Great", "Excellent"))
+                          breaks=c(300, 580, 670, 740, 799, 900),
+                          labels= my_labels, include.lowest = TRUE, right = TRUE)
 
 # Model using only 'cibil_cat'
 sketch_model = glm(loan_status ~ cibil_cat, family = binomial(), data = sketch_sample)
