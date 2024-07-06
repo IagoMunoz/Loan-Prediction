@@ -38,6 +38,7 @@ Uma coleção de dados financeiros usados para determinar a elegibilidade de ind
 # Categorização
 - cibil_score - Normalmente dividido em 5 fases: Pobre(300-579); Justo(580-669); Bom(670-739); Muito Bom(740-799); Excelente(800-850).
 
+
 # Fontes
 - https://www.getzype.com/blog/credit-history/good-cibil-score/
 
